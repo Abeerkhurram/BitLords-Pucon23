@@ -1,0 +1,12 @@
+#navbarNav
+{
+    display: flex;
+    justify-content: space-evenly;
+        
+}
+.nav-item
+{
+    position: relative;
+    justify-content: center;
+    margin-right: 40px;    
+}
