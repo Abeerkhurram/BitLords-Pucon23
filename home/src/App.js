@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import Navbar from "./components/navbar.js";
 import Coverimg from "./components/coverimg.js";
 import Eventlist from "./components/eventLists.js";
-
+import Footer from "./components/footer.js";
 
 function App() {
   const card=[
@@ -31,6 +31,8 @@ function App() {
       <h2 id='title'>EVENTS</h2>
       <br/>
       <Eventlist cardlist={card}/>
+      <br/><br/><br/><br/><br/><br/>
+      <Footer/>
     </>
   );
 }
