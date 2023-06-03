@@ -1,12 +1,13 @@
 
 import React from 'react'
-import Register from './component/Registration/register.jsx'
-import Login from './component/Login/login.jsx'
+import './App.css'
+
+import Event from './component/Event/Event.jsx'
 
 export default function App() {
   return (
     <div>
-      <Login/>
+      <Event/>
     </div>
   )
 }

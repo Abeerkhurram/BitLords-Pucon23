@@ -1,10 +1,10 @@
 import React from 'react'
-import './login.css'
+import './event.css'
 
 export default function login() {
   return (
-    <div>
-      <section className="h-100 gradient-form" style={{backgroundColor: '#eee'}}>
+    <div id="formsize" >
+      <section className="h-100 gradient-form" style={{backgroundColor: '#eee'}} id="formm">
   <div className="container py-5 h-100">
     <div className="row d-flex justify-content-center align-items-center h-100">
       <div className="col-xl-10">
@@ -26,7 +26,7 @@ export default function login() {
                     <input type="password" id="password" className="form-control" />
                  
                   </div>
-                  
+
                   <div className="text-center pt-1 mb-5 pb-1">
                     <button className="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log
                       in</button>
