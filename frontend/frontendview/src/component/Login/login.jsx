@@ -1,12 +1,10 @@
 import React from 'react'
-import './registration.css'
+import './login.css'
 
-
-
-export default function register() {
+export default function login() {
   return (
     <div>
-<section className="h-100 gradient-form" style={{backgroundColor: '#eee'}}>
+      <section className="h-100 gradient-form" style={{backgroundColor: '#eee'}}>
   <div className="container py-5 h-100">
     <div className="row d-flex justify-content-center align-items-center h-100">
       <div className="col-xl-10">
@@ -16,23 +14,19 @@ export default function register() {
               <div className="card-body p-md-5 mx-md-4">
                 <div className="text-center">
                   <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp" style={{width: 185}} alt="logo" />
-                  <h4 className="mt-1 mb-5 pb-1">Registration</h4>
+                  <h4 className="mt-1 mb-5 pb-1">Login</h4>
                 </div>
                 <form>
                   <div className="form-outline mb-4">
                   <label className="form-label" htmlFor="form2Example11">Username</label>
-                    <input type="email" id="username" className="form-control" placeholder=" Email address" />
+                    <input type="email" id="username" className="form-control" placeholder="Phone number or email address" />
                   </div>
                   <div className="form-outline mb-4">
                   <label className="form-label" htmlFor="form2Example22">Password</label>
                     <input type="password" id="password" className="form-control" />
                  
                   </div>
-                  <div className="form-outline mb-4">
-                  <label className="form-label" htmlFor="form2Example22">Confirm Password</label>
-                    <input type="password" id="confirmPassword" className="form-control" />
-              
-                  </div>
+                  
                   <div className="text-center pt-1 mb-5 pb-1">
                     <button className="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log
                       in</button>
@@ -60,8 +54,6 @@ export default function register() {
   </div>
 </section>
 
-
-</div>
-
+    </div>
   )
 }
