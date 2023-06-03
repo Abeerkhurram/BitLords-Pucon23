@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 
-import Navbar from "./components/navbar.js";
-import Coverimg from "./components/coverimg.js";
-import Eventlist from "./components/eventLists.js";
-import Footer from "./components/footer.js";
+// import Navbar from "./components/navbar.js";
+// import Coverimg from "./components/coverimg.js";
+// import Eventlist from "./components/eventLists.js";
+// import Footer from "./components/footer.js";
 
+import AdminNavbar from './Admin/components/navbar';
+import AdminCoverimg from './Admin/components/coverimg';
+import Adminevents from './Admin/components/eventLists';
+import Adminfooter from './Admin/components/footer';
 function App() {
   const card=[
     {
@@ -25,15 +29,22 @@ function App() {
     }
   ]
   return (
+    // <>
+    //   <Navbar/>
+    //   <Coverimg/>
+    //   <h2 id='title'>EVENTS</h2>
+    //   <br/>
+    //   <Eventlist cardlist={card}/>
+    //   <br/><br/><br/><br/><br/><br/>
+    //   <Footer/>
+    //</>
     <>
-      <Navbar/>
-      <Coverimg/>
-      <h2 id='title'>EVENTS</h2>
-      <br/>
-      <Eventlist cardlist={card}/>
-      <br/><br/><br/><br/><br/><br/>
-      <Footer/>
+    <AdminNavbar/>
+    <AdminCoverimg/>
+    <Adminevents cardlist={card}/>
+    <Adminfooter/>
     </>
+
   );
 }
 

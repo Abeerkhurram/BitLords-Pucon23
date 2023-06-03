@@ -1,7 +1,7 @@
 
 import React from 'react';
-import "../css/events.css";
-import webimg from "../images/cardweb.png";
+import "../Admincss/events.css";
+import webimg from "../../images/cardweb.png";
 
 export default function events(props) {
   return (
@@ -17,6 +17,7 @@ export default function events(props) {
 <h5>Duration</h5><p className="time">{props.cards.duration}</p>
 <a href="#" className="btn btn-primary">Edit</a>
 
+<a href="#" className="btn btn-danger">Delete</a>
 </div>
 </div>
     

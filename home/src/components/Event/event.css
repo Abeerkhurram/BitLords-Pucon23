@@ -9,6 +9,7 @@ section.text-center
 .EventCreate{
     display: flex;
     justify-content: center;
+    color: white;
 }
 .Btn{
     background-color: rgb(30, 30, 96);
@@ -22,4 +23,13 @@ section.text-center
 .BtnContainer3{
     display: flex;
     justify-content: center;
+}
+label{
+    color: white;
+}
+#title
+{
+    width: 56.9rem;
+    margin-left: max(0px);
+    
 }

@@ -3,14 +3,14 @@ import './event.css'
 import './datePicker.js'
 export default function Event() {
   return (
-    <div>
+    
    
 
     
       
   <section className="text-center">
-  <div className="p-5 bg-image" style={{backgroundImage: 'url("https://mdbootstrap.com/img/new/textures/full/171.jpg")', height: 300}} />
-  <div className="card mx-4 mx-md-5 shadow-5-strong" style={{marginTop: '-100px', background: 'hsla(0, 0%, 100%, 0.8)', backdropFilter: 'blur(30px)'}}>
+  
+  
     <div className="card-body py-5 px-md-5">
       <div className="row d-flex justify-content-center">
         <div className="col-lg-8">
@@ -81,7 +81,7 @@ export default function Event() {
         </div>
       </div>
     </div>
-  </div>
+  
 </section>
 
 
@@ -89,6 +89,6 @@ export default function Event() {
 
 
 
-    </div>
+    
   )
 }
