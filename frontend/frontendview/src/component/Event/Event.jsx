@@ -49,10 +49,7 @@ export default function Event() {
               <label className="form-label" htmlFor="form3Example4">Description</label>
               <textarea type="text" id="description" className="form-control" />
             </div>
-             
-
-
-
+            
             <div className="form-check d-flex justify-content-center mb-4">
               <input className="form-check-input me-2" type="checkbox" defaultValue id="form2Example33" defaultChecked />
               <label className="form-check-label" htmlFor="form2Example33">
@@ -61,7 +58,7 @@ export default function Event() {
             </div>
             <div className="BtnContainer3">
             <button type="submit" className="Btn">
-              Sign up
+              Create Event
             </button>
             </div>
            
