@@ -7,15 +7,18 @@
     font: 400;
     color: aliceblue;
 }
-#flex-box
-{
-    display: flexbox;
-    justify-content: space-evenly;
 
-}
 .card
 {
-    display: flex;
-    justify-content: space-between;
+    
+
+    display: inline-block;
     margin-left: 20px;
+
+}
+
+.eventContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
 }
