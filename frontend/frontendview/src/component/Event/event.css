@@ -1,0 +1,25 @@
+section.text-center
+{
+    text-align: left !important;
+}
+.postImg{
+    display: flex;
+    flex-direction: column;
+}
+.EventCreate{
+    display: flex;
+    justify-content: center;
+}
+.Btn{
+    background-color: rgb(30, 30, 96);
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.BtnContainer3{
+    display: flex;
+    justify-content: center;
+}
