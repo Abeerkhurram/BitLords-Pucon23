@@ -1,4 +1,17 @@
-.img-fluid
+
+.bg-image
 {
-    width: 100vh;
+    width: 100%;
+    height: 100%;
+    
+}
+#cvrimg
+{
+    
+}
+.cover_img{
+    width: 100vw;
+    height: 80vh !important;
+    background-position: center;
+    background-size: cover;
 }

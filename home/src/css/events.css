@@ -1,0 +1,21 @@
+#title
+{
+    margin-top: 40px;   
+    margin-left:max(610px);
+    letter-spacing: 1.5ch;
+
+    font: 400;
+    color: aliceblue;
+}
+#flex-box
+{
+    display: flexbox;
+    justify-content: space-evenly;
+
+}
+.card
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}

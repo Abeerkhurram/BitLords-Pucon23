@@ -1,12 +1,13 @@
-#navbarNav
+.navbar-nav
 {
-    display: flex;
-    justify-content: space-evenly;
-        
+    position: absolute;
+    margin-left:500px;
 }
 .nav-item
 {
-    position: relative;
-    justify-content: center;
-    margin-right: 40px;    
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:40px ;
 }
+    
